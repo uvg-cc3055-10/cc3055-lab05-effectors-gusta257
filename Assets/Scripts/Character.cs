@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * 
+ * Gustavo De Leon 17085
+ * Clase donde maneja al personaje
+*/
 public class Character : MonoBehaviour {
 
 
@@ -38,7 +43,7 @@ public class Character : MonoBehaviour {
 
         sr.flipX = !facingRight;
 
-
+        /*If que controla que este tocando el suelo*/
         if (Input.GetButtonDown("Jump"))
         {
             RaycastHit2D raycast =

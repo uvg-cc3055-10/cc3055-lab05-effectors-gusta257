@@ -8,7 +8,7 @@ public class Iniciar : MonoBehaviour {
     // Use this for initialization
     void startGame()
     {
-        //Al presionar el boton "Play", se va a cargar la Scene "Principal" y va a iniciar el juego.
+        
         
     }
 
@@ -17,6 +17,10 @@ public class Iniciar : MonoBehaviour {
 		
 	}
 
+    /*
+     *  Pasa de escena a otra 
+     *
+     */
     private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene("Dungeon2", LoadSceneMode.Single);
